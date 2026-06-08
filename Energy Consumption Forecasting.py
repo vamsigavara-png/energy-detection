@@ -1,3 +1,5 @@
+import os
+import sys
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -17,10 +19,19 @@ from sklearn.metrics import (
 # LOAD DATASET
 # ==================================================
 
+DATA_FILE = "household_power_consumption.csv"
+print(f"Checking for dataset file: {DATA_FILE}")
+
+if not os.path.exists(DATA_FILE):
+    print("\nERROR: Dataset file not found.")
+    print("Download 'household_power_consumption.csv' from the UCI repository and place it in the project root.")
+    print("Dataset URL: https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption")
+    sys.exit(1)
+
 print("Loading Dataset...")
 
 df = pd.read_csv(
-    "household_power_consumption.csv",
+    DATA_FILE,
     sep=",",
     low_memory=False
 )

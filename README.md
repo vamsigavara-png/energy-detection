@@ -57,6 +57,10 @@ The dataset is available from the UCI Machine Learning Repository:
 https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 
 > Note: The dataset is not included in this repository because of GitHub file size limitations.
+>
+> Download `household_power_consumption.csv` from the UCI repository and place it in the project root before running `Energy Consumption Forecasting.py`.
+>
+> Dataset URL: https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 
 ---
 
