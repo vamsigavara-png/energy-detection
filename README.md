@@ -203,6 +203,27 @@ Energy-Consumption-Forecasting/
 
 ---
 
+## 🌐 GitHub Pages Website
+
+This repository includes a GitHub Pages site under the `docs/` folder.
+
+To publish the site:
+
+1. Open the repository settings on GitHub.
+2. Go to the **Pages** section.
+3. Select the **`/docs` folder** as your site source.
+4. Save and wait for GitHub to publish the site.
+
+Once published, the website will serve the content of `docs/index.html`.
+
+### Protecting the site from edits
+
+To prevent direct edits to the live site, enable branch protection on the `main` branch in GitHub settings and require pull request reviews before merging.
+
+> Note: I can prepare the website content and repo files here, but branch protection must be enabled in the GitHub repository settings.
+
+---
+
 ## ⚙️ Installation
 
 Clone the repository:
