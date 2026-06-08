@@ -299,6 +299,10 @@ Engineering Student | Python Developer | Machine Learning & Data Analytics Enthu
 
 Interested in building real-world Machine Learning and Data Analytics solutions using Python.
 
+Connect with me on LinkedIn:
+
+[Krishna Vamsi Gavara](https://www.linkedin.com/in/krishna-vamsi-gavara-b27569334?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+
 ---
 
 ⭐ If you found this project useful, consider giving it a star.
